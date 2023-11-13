@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- mobile metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <!-- site metas -->
+    <title>AQAR</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- style css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- responsive-->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- awesome fontfamily -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+</head>
+<!-- body -->
+
+<body class="main-layout inner_page">
+   
+    <div id="mySidepanel" class="sidepanel">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a class="active" href="criteria1.html">Criteria 1</a>
+        <a href="criteria2.html">Criteria 2</a>
+        <a href="criteria3.html">Criteria 3</a>
+        <a href="criteria4.html">Criteria 4</a>
+        <a href="criteria5.html">Criteria 5</a>
+        <a href="criteria6.html">Criteria 6</a>
+        <a href="reportDowload.html">Download Reports</a>
+    </div>
+    <!-- header -->
+    <header>
+        <!-- header inner -->
+        <div class="head-top">
+            <div class="container-fluid">
+                <div class="row d_flex">
+                    <div class="col-sm-3">
+                        <div class="logo">
+                            <a href="index.html"><img src="images/aqar.jpg" />AQAR</a>
+                        </div>
+                    </div>
+                    <div class="col-sm-9">
+                        <ul class="email text_align_right">
+                            <!-- <li class="d_none"> <a href="login.html"><i class="fa fa-user" aria-hidden="true"></i>
+                                    Login</a>
+                            </li> -->
+                            <li> <button class="openbtn" onclick="openNav()"><img src="images/menu_btn.png"></button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- end header -->
+    <!-- contact section -->
+    <div class="contact left_cross_right">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="titlepage text_align_left">
+                        <h2>Criteria 6.3.4</h2>
+                    </div>
+                    <h2 class="mg">Number of teachers undergoing online/face-to-face Faculty development Programmes (FDP) during the year
+                        (Professional Development Programmes, Orientation / Induction Programmes, Refresher Course, Short Term Course etc).</h2>
+
+                </div>
+                <div class="col-md-12">
+                    <form id="request" class="main_form"  method="post" action="https://script.google.com/macros/s/AKfycbyM3ZElLJek_cnCXcNFX1Kcobg2UefYyrw3vnUsZ4PBnmXn6dmZD8msMPai60t-GQOX/exec">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <input class="contactus" placeholder="Name of teacher who attended" type="txt" name="Name of teacher who attended" required>
+                            </div>
+                            <div class="col-md-12">
+                                <input class="contactus" placeholder="Title of the program" type="text" name="Title of the program" required>
+                            </div>
+                            <div class="col-md-12">
+                                <input class="contactus" placeholder="Duration (from – to)" name="Duration (from – to)" type="text" required>
+                            </div>
+                                   
+                                <div class="col-md-12">
+                                    <button class="send_btn">Submit</button>
+
+                                </div>
+                            </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end contact section -->
+    <!-- footer -->
+    <!-- end footer -->
+    <!-- Javascript files-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.0.0.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
